@@ -36,6 +36,7 @@
     "@nrwl/nx-cloud": "latest",
     "@nrwl/web": "15.9.4",
     "@nrwl/workspace": "15.9.4",
+    "@nx/storybook": "^16.3.2",
     "@schematics/angular": "~15.2.0",
     "@types/jest": "^29.4.0",
     "@types/node": "16.11.7",

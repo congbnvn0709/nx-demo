@@ -2,7 +2,7 @@
   "name": "cm-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "cm-app",
+  "prefix": "mbb",
   "sourceRoot": "apps/cm-app/src",
   "tags": [],
   "targets": {

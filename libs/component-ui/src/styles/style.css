@@ -1,0 +1,75 @@
+.fs-14 {
+  font-size: 1rem;
+}
+
+.fs-16 {
+  font-size: 1.1428571429rem;
+}
+
+.fs-22 {
+  font-size: 1.5714285714rem;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-400 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.bg-primary {
+  background: #141ed2;
+}
+
+.bg-primary-notice {
+  background: #1fb266;
+}
+
+.bg-primary-destruction {
+  background: #ff1a12;
+}
+
+.bg-secondary {
+  background: #e8e9fb;
+}
+
+.bg-secondary-notice {
+  background: #e9f7f0;
+}
+
+.bg-secondary-destruction {
+  background: #ffe8e7;
+}
+
+.bg-plain {
+  background: #fff;
+}/*# sourceMappingURL=style.css.map */

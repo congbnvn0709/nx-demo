@@ -1,0 +1,3 @@
+@mixin dynamic-fontSize($value) {
+  font-size: px-to-rem($value);
+}

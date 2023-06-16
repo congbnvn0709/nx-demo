@@ -1,0 +1,39 @@
+{
+  "name": "component-ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/component-ui/src",
+  "prefix": "mbb",
+  "tags": [],
+  "projectType": "library",
+  "stylePreprocessorOptions": {
+    "includePaths": [
+      "libs/component-ui/src/styles"
+    ]
+  },
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/component-ui/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/component-ui/**/*.ts",
+          "libs/component-ui/**/*.html"
+        ]
+      }
+    }
+  }
+}

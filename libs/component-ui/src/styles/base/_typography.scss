@@ -1,0 +1,13 @@
+@use '../abstracts' as *;
+
+@each $size, $value in $font-sizes {
+  .fs-#{$size} {
+    font-size: px-to-rem($value);
+  }
+}
+
+@each $weight, $value in $font-weights {
+  .fw-#{$weight} {
+    font-weight: map-get($font-weights, $weight);
+  }
+}

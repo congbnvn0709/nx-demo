@@ -1,0 +1,6 @@
+@use '../abstracts' as *;
+@each $bg, $value in $back-colors {
+  .bg-#{$bg} {
+    background: map-get($back-colors, $bg);
+  }
+}
